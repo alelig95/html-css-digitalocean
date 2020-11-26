@@ -10,54 +10,49 @@
   </head>
   <body>
 
-    <div class="row">
-      <div class="container">
+    <div class="container">
+      <nav class="row bl-navbar">
+        <ul class="col-xs-2">
+          <li><img class="bl-logo" src="img/digital-ocean-logo.png" alt=""></li>
+        </ul>
+        <ul class="col-md-5 tx-right hidden-xs hidden-sm">
+          <li>Products</li>
+          <li>Customers</li>
+          <li>Community</li>
+          <li>Pricing</li>
+        </ul>
 
+        <ul class="col-md-5 tx-right hidden-xs hidden-sm">
+          <li>Docs</li>
+          <li>Support</li>
+          <li>Login</li>
+        </ul>
 
+        <ul class="col-xs-10 tx-right hidden-md hidden-lg">
+          <li><i class="fa fa-bars" aria-hidden="true"></i></li>
+        </ul>
 
-          <nav class="bl-navbar">
-
-            <ul class="navbar-left">
-              <li> <img class="bl-logo" src="img/digital-ocean-logo.png" alt=""> </li>
-            </ul>
-
-            <ul class="xxx">
-              <li>Products</li>
-              <li>Customers</li>
-              <li>Community</li>
-              <li>Pricing</li>
-            </ul>
-
-            <ul class="navbar-right">
-              <li>Docs</li>
-              <li>Support</li>
-              <li>Login</li>
-              <li> <button type="button" name="button"></button> </li>
-            </ul>
-
-          </nav>
-
-      </div>
+      </nav>
 
     </div>
 
     <div class="bl-jumbotron">
       <div class="row">
         <div class="container">
-          <div class="jumbotron-left col-md-6">
+          <div class="jumbotron-left col-xs-12 col-sm-6 col-md-6">
 
             <h1>The simplest cloud platform for <br> developers & teams</h1>
             <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
 
           </div>
 
-          <div class="jumbotron-right col-md-6">
+          <div class="jumbotron-right col-xs-12 col-sm-6 col-md-6">
             <h3 class="text-center">Deploy your app in seconds</h3>
             <h3 class="text-center">Get Started now</h3>
-            <input class="col-md-12" type="email" name="email" placeholder="Email" value="">
+            <input class="col-xs-12 col-md-12" type="email" name="email" placeholder="Email" value="">
             <input class="col-md-12" type="password" name="password" placeholder="Password" value="">
-            <button type="button" class="btn btn-primary col-md-12">Create your account</button>
-            <button type="button" class="btn btn-default col-md-12">Sign up with google</button>
+            <button type="button" class="btn btn-primary col-xs-12 col-md-12">Create your account</button>
+            <button type="button" class="btn btn-default col-xs-12 col-md-12">Sign up with google</button>
             <p class="text-center">By signing up you agree to the Terms of Service.</p>
 
           </div>
@@ -84,9 +79,66 @@
 
     <div class="container">
 
-      <h2 class="text-center">Deploy and scale seamlessly</h2>
-      <p class="text-center">Our optimized configuration process saves your team time when running and scaling distribuited applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments</p>
+      <div class="deploy-section margin-top">
+
+
+        <h2 class="text-center">Deploy and scale seamlessly</h2>
+        <p class="text-center">Our optimized configuration process saves your team time when running and scaling distribuited applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments</p>
+        <div class="row margin-top">
+          <div class="bl-sidebar col-xs-12 col-sm-4 col-md-4">
+            <ul>
+              <li>Deploy</li>
+              <li>Manage</li>
+              <li>Secure</li>
+              <li>Scale</li>
+              <li>Monitor</li>
+            </ul>
+
+          </div>
+          <div class="col-xs-12 col-sm-8 col-md-8">
+
+            <div class="row">
+
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <img src="img/app-platform.svg" alt="">
+                <h4>Cluster deployments</h4>
+                <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API</p>
+              </div>
+
+              <div class="col-xs-12 col-sm-5 col-md-6">
+                <img src="img/flexible-compute-types.svg" alt="">
+                <h4>Optimized compute types</h4>
+                <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-6">
+                <img src="img/click-app-marketplace.svg" alt="">
+                <h4>One-click apps</h4>
+                <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+              </div>
+
+              <div class="col-xs-12 col-sm-5 col-md-6">
+                <img src="img/kubernetes-in-minutes.svg" alt="">
+                <h4>Global availability</h4>
+                <p>Deploy to any of our data center regions around the world.</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="slogan-a margin-top">
+        <h2 class="text-center">Designed for developers</h2>
+        <p class="text-center">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+        <img src="img/droplets.jpg" alt="">
+      </div>
+
 
     </div>
+
   </body>
 </html>
