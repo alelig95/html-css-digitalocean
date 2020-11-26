@@ -2,8 +2,16 @@
   height: 50px;
 }
 
+.xxx{
+margin-left: 150px;
+}
+
 .bl-logo{
   height: 25px;
+}
+
+ul{
+  display: inline;
 }
 
 .bl-navbar li{
@@ -52,4 +60,22 @@ h1{
 
 .jumbotron-right p{
   margin-top: 190px;
+}
+
+.xx{
+  margin: 50px 0;
+}
+
+.logos{
+  margin-bottom: 50px;
+}
+
+.logos img{
+ height: 50px;
+ padding-right: 20px;
+}
+
+
+h2{
+  font-weight: bolder;
 }
