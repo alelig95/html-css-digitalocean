@@ -191,17 +191,29 @@ h2{
 .slogan-b-content{
   height: 350px;
   background-color: #fff;
-  margin: 50px 0;
-  float: none;
-  margin: 0 auto;
+  margin: px 0;
+  display: inline-block;
+  vertical-align: middle;
 
 }
 
 .rockerbox{
+  margin-top: 45px;
+}
+
+.pippo{
+display: inline-block;
+vertical-align: middle;
 }
 
 .slogan-b-content img{
   height: 40px;
+  margin-top: 40px;
+}
+
+.slogan-b-content p{
+  margin-top: 15px;
+  text-align: center;
 }
 
 footer{
