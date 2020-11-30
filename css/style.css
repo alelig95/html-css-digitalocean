@@ -20,10 +20,6 @@ p{
   padding-bottom: 30px;
 }
 
-.margin-t{
-  margin-top: 60px;
-}
-
 /* end utility*/
 
 .bl-navbar{
@@ -67,15 +63,17 @@ p{
 
 .jumbotron-left{
   color: #fff;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .jumbotron-left p{
   color: #fff;
+  padding-bottom: 15px;
 }
 
 h1{
   font-size: 48px;
+  font-weight: bold;
 }
 
 .jumbotron-left p{
@@ -119,7 +117,7 @@ h1{
 }
 
 .google-signup{
-  height: 18px;
+  height: 19px;
 }
 
 .slogan{
@@ -153,16 +151,20 @@ h2{
 }
 
 .carousel-a{
+  margin-top: 60px;
+}
+
+.carousel-a-content{
   text-align: center;
 }
 
-.carousel-a img{
+.carousel-a-content img{
   height: 355px;
   margin-top: 15px;
   padding-bottom: 30px;
 }
 
-.carousel-a p{
+.carousel-a-content p{
   padding-top: 18px;
   padding-bottom: 27px;
 }
@@ -294,6 +296,10 @@ h2{
   padding-top: 50px;
 }
 
+.get-started button{
+  color: #1a76f6;
+}
+
 footer{
   background-color: #031c4e;
   color: #fff;
@@ -306,18 +312,18 @@ footer{
 
 .social-logo i{
   font-size: 20px;
-  color: #6c7382;
+  color: #808794;
   padding-right: 10px;
   margin-top: 5px;
 }
 
 .copyright{
   margin-top: 10px;
-  color: #6c7382;
+  color: #808794;
 }
 
 footer span{
-  color: #6c7382;
+  color: #808794;
 }
 
 footer h4{
@@ -328,11 +334,10 @@ footer h4{
 footer li{
   display: block;
   padding-top: 8px;
-  color: #6c7382;
 }
 
 footer a{
-  color: #6c7382;
+  color: #808794;
 }
 
 footer li:last-child{
@@ -340,7 +345,6 @@ footer li:last-child{
 }
 
 .fish{
-  position: absolute;
   right: 30px;
   bottom: 35px;
   position: fixed;
@@ -381,6 +385,12 @@ footer li:last-child{
 }
 
 @media screen and (max-width: 767px){
+
+  .jumbotron-right{
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
   .businesses-logo img{
     height: 90px;
     margin-bottom: 30px;
@@ -390,7 +400,7 @@ footer li:last-child{
     float:right;
   }
 
-  .carousel-a img{
+  .carousel-a-content img{
     height: 210px;
   }
 
@@ -398,12 +408,16 @@ footer li:last-child{
     padding-left: 0;
     padding-bottom: 5px;
   }
+
+  .bg-blue ul li:nth-child(2){
+    margin-left: 50px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px){
 
   .jumbotron-right{
-    margin-top: 90px;
+    margin-top: 100px;
   }
 
   .businesses-logo img{
@@ -411,7 +425,7 @@ footer li:last-child{
     padding-left: 10px;
   }
 
-  .carousel-a img{
+  .carousel-a-content img{
     height: 250px;
   }
 
