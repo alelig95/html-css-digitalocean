@@ -15,6 +15,10 @@ ul {
   padding:0
 }
 
+p{
+  color: #6c7382;
+}
+
 .bl-navbar li{
   display: inline-block;
   line-height: 55px;
@@ -29,8 +33,8 @@ ul {
   line-height: 0;
   padding: 12px;
   background-color: #fff;
-  color: blue;
-  border: blue solid 2px;
+  color: #0168fd;
+  border: #0168fd solid 2px;
   border-radius: 4px;
 }
 
@@ -49,6 +53,10 @@ ul {
 .jumbotron-left{
   color: #fff;
   margin-top: 30px;
+}
+
+.jumbotron-left p{
+  color: #fff;
 }
 
 h1{
@@ -123,7 +131,7 @@ h2{
 }
 
 .bl-sidebar a{
-  color: black;
+  color: #6c7382;
 }
 
 .carousel-a{
@@ -138,6 +146,10 @@ h2{
 
 .chevron{
   cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 23px;
+  margin: 0 15px;
 }
 
 .chevron:hover{
@@ -225,13 +237,6 @@ h2{
   width: 73%;
 }
 
-.chevron{
-display: inline-block;
-vertical-align: middle;
-font-size: 23px;
-margin: 0 15px;
-}
-
 .rick{
   font-weight: bold;
 }
@@ -261,14 +266,27 @@ margin: 0 15px;
 footer{
   background-color: #031c4e;
   color: #fff;
+  position: relative;
 }
 
 .logo-footer{
   margin-top: 60px;
 }
 
+.social-logo i{
+  font-size: 20px;
+  color: #6c7382;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+
 .copyright{
   margin-top: 10px;
+  color: #6c7382;
+}
+
+footer span{
+  color: #6c7382;
 }
 
 footer h4{
@@ -279,10 +297,56 @@ footer h4{
 footer li{
   display: block;
   padding-top: 8px;
+  color: #6c7382;
+}
+
+footer a{
+  color: #6c7382;
 }
 
 footer li:last-child{
   padding-bottom: 30px;
+}
+
+.fish{
+  position: absolute;
+  right: 30px;
+  bottom: 35px;
+  position: fixed;
+}
+
+.fish img{
+  vertical-align:bottom;
+  margin-left: 10px;
+}
+
+
+.box2 {
+  width: 300px;
+  height: 60px;
+  border: 1px solid #ccc;
+  padding: 11px;
+  font-weight: 600;
+  color: #031c4e;
+  font-family: arial;
+  position: relative;
+  background: #ffffff;
+  border-radius: .4em;
+  display: inline-block;
+}
+
+.box2:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 9px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	margin-top: 5px;
+	margin-right: -8px;
 }
 
 @media screen and (max-width: 767px){
