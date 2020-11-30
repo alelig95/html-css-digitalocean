@@ -1,15 +1,4 @@
-.bl-navbar{
-  height: 55px;
-}
-
-.bl-logo{
-  height: 25px;
-}
-
-.tx-right {
-  text-align: right;
-}
-
+/*utility*/
 ul {
   margin: 0;
   padding:0
@@ -17,6 +6,28 @@ ul {
 
 p{
   color: #6c7382;
+}
+
+.tx-right {
+  text-align: right;
+}
+
+.padding-t{
+  padding-top: 40px;
+}
+
+.padding-b{
+  padding-bottom: 30px;
+}
+
+/* end utility*/
+
+.bl-navbar{
+  height: 55px;
+}
+
+.bl-logo{
+  height: 25px;
 }
 
 .bl-navbar li{
@@ -78,6 +89,10 @@ h1{
   margin-bottom: 30px;
 }
 
+.jumbotron-right input, .jumbotron-right button{
+  width: 100%;
+}
+
 .jumbotron-right h3{
   font-weight: bolder;
 }
@@ -91,12 +106,25 @@ h1{
 }
 
 .jumbotron-right p{
-  margin-top: 177px;
+  margin-top: 20px;
   padding-bottom: 10px;
 }
 
 .jumbotron-right a{
   text-decoration: underline;
+}
+
+.btn-google:before{
+  position: absolute;
+  content: "";
+  background-image: url("https://www.shareicon.net/data/256x256/2016/11/22/854956_search_512x512.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+}
+
+.btn-google{
+  position: relative;
 }
 
 .xx{
@@ -118,9 +146,13 @@ h2{
   font-weight: bolder;
 }
 
-.bl-sidebar{
-  margin-bottom: 10px;
+.deploy-section p{
+  padding-bottom: 30px;
+}
 
+.bl-sidebar ul{
+  margin-bottom: 10px;
+  padding-left: 70px;
 }
 
 .bl-sidebar li{
@@ -358,6 +390,15 @@ footer li:last-child{
   .logos img:nth-child(even){
     float:right;
   }
+
+  .carousel-a img{
+    height: 210px;
+  }
+
+  .bl-sidebar ul{
+    padding-left: 0;
+    padding-bottom: 5px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px){
@@ -369,6 +410,10 @@ footer li:last-child{
   .logos img{
     height: 60px;
     padding-left: 10px;
+  }
+
+  .carousel-a img{
+    height: 250px;
   }
 
 }
